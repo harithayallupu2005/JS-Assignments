@@ -1,0 +1,33 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+  }
+  
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  button:hover {
+    color: #007bff;
+  }
+  
+  button:first-of-type {
+    left: 0;
+  }
+  
+  button:last-of-type {
+    right: 0;
+  }
+  

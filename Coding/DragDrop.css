@@ -1,0 +1,19 @@
+.drag-drop-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .drag-drop-item {
+    padding: 8px;
+    margin: 4px 0;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: grab;
+  }
+  
+  .drag-drop-item:active {
+    cursor: grabbing;
+  }
+  
